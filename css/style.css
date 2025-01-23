@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
-    font-family: 'Poppins',cursive;
+    font-family: "Oswald", serif;
 }
 :root {
     --dark-color: #000; 
@@ -21,13 +21,13 @@ body {
 @media (max-width: 500px) {
     body {
         background: url("../img/em/anh3.jpg") no-repeat center center fixed;
-        background-size: cover; /* Hiển thị ảnh nền chỉ khi màn nhỏ */
+        background-size: cover;
     }
 }
 
 .greetings{
     font-size: 6rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 .greetings > span{
     animation: glow 3s ease-in-out infinite;
