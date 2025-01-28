@@ -1319,3 +1319,25 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+
+.new-year-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px; /* Chiều rộng phần tử */
+  height: 200px; /* Chiều cao phần tử */
+  background: url("https://i.pinimg.com/736x/b4/77/e0/b477e0eed08653996a28df1325b27278.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: 9999; /* Đảm bảo nằm trên các phần tử khác */
+  border-radius: 5px;
+  position: fixed; /* Đảm bảo phần tử được cố định theo cửa sổ */
+  top: 20%; /* Căn giữa theo chiều dọc */
+  transform: translate(-50%, -50%); /* Dịch chuyển về trung tâm */
+  visibility: hidden; 
+  color: white;
+  font-size: 15px;
+  flex-direction: column;
+  padding: 60px;
+  font-weight: 500;
+}

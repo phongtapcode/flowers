@@ -116,3 +116,19 @@ button{
         font-size: .5rem;
     }
 }
+
+.new-year-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Chiều rộng phần tử */
+    height: 50px; /* Chiều cao phần tử */
+    background: url("https://i.pinimg.com/736x/b4/77/e0/b477e0eed08653996a28df1325b27278.jpg") no-repeat center center;
+    background-size: cover; 
+    /* z-index: 100; */
+    border-radius: 5px;
+}
+
+#newYearMessage {
+    visibility: hidden;
+  }
